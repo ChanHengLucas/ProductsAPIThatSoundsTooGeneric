@@ -11,7 +11,9 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  getE(): any {
-    return this.appService.getE();
-  }
+  // @Get()
+  // @Header('Content-Type', 'text/html')
+  // getE(): string {
+  //   return this.appService.getE();
+  // }
 }
